@@ -5,6 +5,7 @@ import '../styles/projects.css'
 import NavigationBar from '../components/NavigationBar'
 import SocialsSidebar from '../components/SocialsSidebar'
 import ProjectCard from '../components/ProjectCard'
+import Footer from '../components/Footer'
 
 const Projects = () => {
     const [projects, setProjects] = useState([])
@@ -34,6 +35,8 @@ const Projects = () => {
                     }
                 </Row>
             </div>
+
+            <Footer />
         </>
     )
 }
