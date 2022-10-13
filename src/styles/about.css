@@ -1,0 +1,31 @@
+.slash {
+    color: rgb(120, 120, 120);
+}
+
+.about {
+    margin: 7% 12% 10% 12%;
+}
+
+.about h2 {
+    color: rgb(60, 60, 60);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about p {
+    color: rgb(60, 60, 60);
+    font-size: 17px;
+}
+
+.about h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.replit-link {
+    color: rgb(79, 79, 79);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.replit-link:hover {
+    color: rgb(53, 53, 53);
+}
