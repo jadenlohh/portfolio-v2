@@ -12,7 +12,7 @@ const ProjectCard = ({ name, description, languages_url, link, github_url }) => 
     }, [])
 
     return (
-        <Col xxl='3' xl='4' lg='4' md='6' sm='12' className='project-card mt-3'>
+        <Col xxl='3' xl='4' lg='4' md='6' sm='12' className='project-card mt-4'>
             <Card className='h-100 w-100'>
                 <Card.Body>
                     <i className="fa-regular fa-folder pb-4"></i>

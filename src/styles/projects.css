@@ -1,5 +1,5 @@
 .projects {
-    margin: 7% 12% 5% 12%;
+    margin: 7% 12% 10% 12%;
 }
 
 .projects h2 {
@@ -32,7 +32,7 @@
 }
 
 .programming-language span {
-    color: rgb(101, 101, 255);
+    color: #2aa8de;
     font-size: 14px;
     padding-right: 0.8rem;
     width: 100px;
