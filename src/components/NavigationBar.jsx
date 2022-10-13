@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../assets/resume.pdf'
 import { Nav } from 'react-bootstrap'
 
 const NavigationBar = () => {
@@ -17,7 +18,7 @@ const NavigationBar = () => {
             </Nav.Item>
 
             <Nav.Item>
-                <Nav.Link href='/'>Resume <span style={{fontSize: '13px'}}><i className="fa-solid fa-arrow-right"></i></span></Nav.Link>
+                <Nav.Link href={resume}>Resume&nbsp;&nbsp;<span style={{fontSize: '14px'}}><i className="fa-solid fa-arrow-up-right-from-square"></i></span></Nav.Link>
             </Nav.Item>
         </Nav>
     )
