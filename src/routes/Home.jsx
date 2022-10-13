@@ -1,26 +1,26 @@
 import React from 'react'
+import '../styles/home.css'
 import { Col, Image, Row } from 'react-bootstrap'
 import NavigationBar from '../components/NavigationBar'
-import ProjectBanner from '../components/ProjectBanner'
 import SocialsSidebar from '../components/SocialsSidebar'
+import ProjectBanner from '../components/ProjectBanner'
 import PortraitImg from '../images/portrait.jpg'
 
 const Home = () => {
-    
 
     return (
         <>
             <NavigationBar />
             <SocialsSidebar />
-{/*             
-            <ul className='page-navigations'>
-                <li onClick={changeSection(1)}><i className="fa-solid fa-square"></i></li>
-                <li onClick={changeSection(2)}><a href='#favourite-projects'><i className="fa-regular fa-square"></i></a></li>
-                <li onClick={changeSection(3)}><i className="fa-regular fa-square"></i></li>
-                <li onClick={changeSection(4)}><i className="fa-regular fa-square"></i></li>
+
+            {/* <ul className='page-navigations'>
+                <li><i className="fa-solid fa-square"></i></li>
+                <li onClick={changeSection}><i className="fa-regular fa-square"></i></li>
+                <li><i className="fa-regular fa-square"></i></li>
+                <li><i className="fa-regular fa-square"></i></li>
             </ul> */}
 
-            <div className='hero'>
+            <div className='section hero active'>
                 <Row style={{margin: 'auto'}}>
                     <Col md='6' className='text-box'>
                         <h1>Hey, I'm Jaden</h1>
@@ -35,14 +35,18 @@ const Home = () => {
 
             <i className="fa-solid fa-chevron-down" id='arrow-down'></i>
 
-            <div className='home-project-section' id='favourite-projects'>
+            {/* <div className='home-project-section' id='favourite-projects'>
                 <div style={{textAlign: 'center'}}>
                     <h2>My Works</h2>
                     <p>View some of my past projects that I've done</p>
                 </div>
 
                 <ProjectBanner />
-            </div>
+            </div> */}
+
+            <div className='section' style={{height: '100vh'}}>ee</div>
+            <div className='section' style={{height: '100vh'}}>eee</div>
+            <div className='section' style={{height: '100vh'}}>eeee</div>
         </>
     )
 }
