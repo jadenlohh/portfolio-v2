@@ -1,0 +1,59 @@
+.projects {
+    margin: 7% 12% 5% 12%;
+}
+
+.projects h2 {
+    color: rgb(60, 60, 60);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.projects p {
+    color: rgb(60, 60, 60);
+    font-size: 17px;
+}
+
+.project-card {
+    border-radius: 8px;
+    transition: 0.3s ease;
+    top: 0;
+    position: relative;
+}
+
+.project-card:hover {
+    top: -8px;
+}
+
+.project-card .card-body {
+    padding: 24px;
+}
+
+.project-card i {
+    font-size: 2rem;
+}
+
+.programming-language span {
+    color: rgb(101, 101, 255);
+    font-size: 14px;
+    padding-right: 0.8rem;
+    width: 100px;
+}
+
+.project-links {
+    bottom: 16px; 
+    position: absolute; 
+    padding-right: 24px;
+    width: 100%; 
+}
+
+.project-links .view-btn-container {
+    padding: 0 0.25rem;
+}
+
+.project-links i {
+    font-size: 1rem;
+}
+
+.project-links .btn-outline-dark:hover {
+    background-color: white !important;
+    color: #212529 !important;
+}

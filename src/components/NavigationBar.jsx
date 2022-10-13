@@ -13,11 +13,11 @@ const NavigationBar = () => {
             </Nav.Item>
 
             <Nav.Item>
-                <Nav.Link href='/'>Projects</Nav.Link>
+                <Nav.Link href='/projects'>Projects</Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-                <Nav.Link href='/'>Contact</Nav.Link>
+                <Nav.Link href='/'>Resume <span style={{fontSize: '13px'}}><i className="fa-solid fa-arrow-right"></i></span></Nav.Link>
             </Nav.Item>
         </Nav>
     )
