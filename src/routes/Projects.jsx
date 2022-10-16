@@ -23,7 +23,7 @@ const Projects = () => {
 
             <div className='projects'>
                 <h2 className='text-center'><span style={{color: 'rgb(120, 120, 120)'}}>/</span>projects</h2>
-                <p className='text-center'>Projects that i have done in the past</p>
+                <p className='text-center'>Projects that I have done in the past</p>
 
                 <Row className='mt-5'>
                     {

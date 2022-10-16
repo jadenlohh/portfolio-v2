@@ -23,17 +23,20 @@ const About = () => {
 
                         I then went on to research on my own and learnt my first programming language on YouTube. However, 
                         not owning a computer at that time means I had to use an <a href='https://replit.com'>online editor</a> to 
-                        create my first python game - rock, paper, scissors.<br /><br />
+                        create my first python game - rock, paper, scissors. Looking back, I learnt to have faith in myself and
+                        persevere through no matter what challenges I face.<br /><br />
 
                         <a href='https://replit.com/@Coldfrost' className='replit-link mt-4'>my past replit profile <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </p>
                 </div>
 
-                <div style={{marginTop: '12%'}}>
+                <div className='future-plans'>
                     <h4><span className='slash'>/</span>about<span className='slash'>/</span>future-plans</h4>
                     <p className='mt-4'>
-                        After being exposed to so many challenges and experience, I am more certain about <b>using
-                        my skills and knowledge to build tech for public good.</b><br /><br />
+                        After being exposed to many programming languages, I am more certain about <b>using
+                        my skills and knowledge to build tech for public good</b> and I aspire to become a software
+                        engineer. I would also like to gain industry experiences through internships in order to be fully
+                        prepared for what is coming in the future.<br /><br />
                         
                         I currently enjoy doing front-end development - building and creating user-friendly interface using 
                         clean, readable code.

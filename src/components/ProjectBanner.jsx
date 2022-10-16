@@ -5,7 +5,7 @@ import WeatherProjectImg from '../images/427.png'
 const ProjectBanner = () => {
     return (
         <div className='project-banner'>
-            <Row>
+            <Row className='mx-auto'>
                 <Col md='6' className='pe-0'>
                     <Image fluid='true' src={WeatherProjectImg} width='400' />
                 </Col>

@@ -2,15 +2,8 @@ h1, h2 {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.page-navigations {
-    bottom: 20px;
-    position: fixed;
-    list-style: none;
-    right: 70px;
-}
-
 .hero {
-    height: calc(100vh - 56px - 4rem);
+    height: calc(100vh - 64px - 4rem);
     margin-top: 4rem;
     margin-left: 12%;
 }
@@ -22,6 +15,7 @@ h1, h2 {
 
 .text-box p {
     font-size: 1.18rem;
+    width: 80%;
 }
 
 .image-box {
@@ -29,7 +23,7 @@ h1, h2 {
 }
 
 .image-box::after {
-    border: 1px solid black;
+    border: 1px solid #3d7c98;
     content: '';
     height: 340px;
     left: 2.5rem;
@@ -83,4 +77,60 @@ h1, h2 {
 .project-description button {
     border-radius: 50%;
     padding: 5px 10px;
+}
+
+
+@media (max-width: 575.98px) {
+    .hero {
+        margin: 0 8%;
+        margin-top: 15%;
+    }
+
+    .text-box {
+        order: 2;
+        margin-top: 11%;
+    }
+
+    .text-box p {
+        width: 100%;
+    }
+
+    .image-box {
+        order: 1;
+    }
+
+    .image-box::after {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .hero {
+        height: calc(100vh - 64px - 12rem);
+        margin-top: 12rem;
+    }
+
+    .text-box {
+        padding-left: 3rem;
+    }
+
+    .text-box h1 {
+        font-size: 3.2rem;
+    }
+    
+    .text-box p {
+        font-size: 1.4rem;
+        width: 70%;
+    }
+
+    .image-box::after {
+        height: 395px;
+        width: 400px;
+    }
+
+    #portrait-image {
+        height: 400px;
+        width: 400px;
+    }
 }

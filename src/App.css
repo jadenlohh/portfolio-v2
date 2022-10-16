@@ -68,3 +68,14 @@
     position: absolute;
     width: 80%;
 }
+
+
+@media (max-width: 575.98px) {
+    .socials-sidebar {
+        display: none;
+    }
+
+    .footer {
+        height: 70vh;
+    }
+}

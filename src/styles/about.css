@@ -29,3 +29,18 @@
 .replit-link:hover {
     color: rgb(53, 53, 53);
 }
+
+.future-plans {
+    margin-top: 12%;
+}
+
+
+@media (max-width: 575.98px) {
+    .about {
+        margin: 7% 8% 10% 8%;
+    }
+
+    .future-plans {
+        margin-top: 24%;
+    }
+}

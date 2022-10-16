@@ -57,3 +57,28 @@
     background-color: white !important;
     color: #212529 !important;
 }
+
+
+@media (max-width: 575.98px) {
+    .projects {
+        margin: 7% 8% 10% 8%;
+    }
+
+    .project-card .card-body {
+        padding-bottom: 8px;
+    }
+
+    .project-links {
+        position: relative;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .project-links .view-btn-container {
+        padding-left: 12px;
+    }
+
+    .project-links #view-btn {
+        margin-top: 0.5rem;
+    }
+}
