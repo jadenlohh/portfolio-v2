@@ -18,7 +18,7 @@ const NavigationBar = () => {
             </Nav.Item>
 
             <Nav.Item>
-                <Nav.Link href={resume}>Resume&nbsp;&nbsp;<span style={{fontSize: '14px'}}><i className="fa-solid fa-arrow-up-right-from-square"></i></span></Nav.Link>
+                <Nav.Link href={resume} target="_blank">Resume&nbsp;&nbsp;<span style={{fontSize: '14px'}}><i className="fa-solid fa-arrow-up-right-from-square"></i></span></Nav.Link>
             </Nav.Item>
         </Nav>
     )

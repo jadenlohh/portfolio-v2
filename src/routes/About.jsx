@@ -26,7 +26,7 @@ const About = () => {
                         create my first python game - rock, paper, scissors. Looking back, I learnt to have faith in myself and
                         persevere through no matter what challenges I face.<br /><br />
 
-                        <a href='https://replit.com/@Coldfrost' className='replit-link mt-4'>my past replit profile <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href='https://https://replit.com/@Coldfrost?tab=repls' className='replit-link mt-4'>my past replit profile <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </p>
                 </div>
 
