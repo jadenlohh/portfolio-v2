@@ -26,15 +26,15 @@ const About = () => {
                         create my first python game - rock, paper, scissors. Looking back, I learnt to have faith in myself and
                         persevere through no matter what challenges I face.<br /><br />
 
-                        <a href='https://https://replit.com/@Coldfrost?tab=repls' className='replit-link mt-4'>my past replit profile <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href='https://replit.com/@Coldfrost?tab=repls' className='replit-link mt-4'>my past replit profile <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </p>
                 </div>
 
                 <div className='future-plans'>
                     <h4><span className='slash'>/</span>about<span className='slash'>/</span>future-plans</h4>
                     <p className='mt-4'>
-                        After being exposed to many programming languages, I am more certain about <b>using
-                        my skills and knowledge to build tech for public good</b> and I aspire to become a software
+                        After being exposed to many programming languages, I am more certain about using
+                        my skills and knowledge to build tech for public good and I aspire to become a software
                         engineer. I would also like to gain industry experiences through internships in order to be fully
                         prepared for what is coming in the future.<br /><br />
                         
