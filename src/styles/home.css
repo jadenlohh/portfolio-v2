@@ -3,14 +3,16 @@ h1, h2 {
 }
 
 .hero {
-    height: calc(100vh - 64px - 4rem);
-    margin-top: 4rem;
-    margin-left: 12%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 80%;
 }
 
 .text-box h1 {
     font-size: 2.6rem;
-    margin-top: 3.8rem;
+    margin-top: 4rem;
 }
 
 .text-box p {
@@ -25,58 +27,17 @@ h1, h2 {
 .image-box::after {
     border: 1px solid #3d7c98;
     content: '';
-    height: 340px;
+    height: 360px;
     left: 2.5rem;
     top: 2rem;
     position: absolute;
-    width: 340px;
+    width: 360px;
     z-index: -1;
 }
 
-#arrow-down {
-    animation: arrowDown 3s infinite;
-    bottom: 28px;
-    font-size: 24px;
-    left: 50%;
-    right: 50%;
-    position: absolute;
-    transform: translateX(-50%, -50%);
-}
-
-@keyframes arrowDown {
-    0% { bottom: 28px; }
-    50% { bottom: 15px; }
-    100% { bottom: 28px; }
-}
-
-.home-project-section {
-    margin-top: 8rem;
-}
-
-.home-project-section p {
-    font-size: 18px;
-    margin-bottom: 4rem;
-}
-
-.project-banner {
-    margin-left: 12%;
-}
-
-.project-description h2 {
-    margin-top: 5rem;
-}
-
-.project-description p {
-    font-size: 18px;
-}
-
-.project-description a {
-    text-decoration: none;
-}
-
-.project-description button {
-    border-radius: 50%;
-    padding: 5px 10px;
+#portrait {
+    height: 360px;
+    width: 360px;
 }
 
 
@@ -106,11 +67,6 @@ h1, h2 {
 
 
 @media (min-width: 1400px) {
-    .hero {
-        height: calc(100vh - 64px - 12rem);
-        margin-top: 12rem;
-    }
-
     .text-box {
         padding-left: 3rem;
     }
@@ -121,16 +77,16 @@ h1, h2 {
     
     .text-box p {
         font-size: 1.4rem;
-        width: 70%;
+        width: 80%;
     }
 
     .image-box::after {
-        height: 395px;
-        width: 400px;
+        height: 420px;
+        width: 420px;
     }
 
-    #portrait-image {
-        height: 400px;
-        width: 400px;
+    #portrait {
+        height: 420px;
+        width: 420px;
     }
 }
