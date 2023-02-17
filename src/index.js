@@ -6,6 +6,7 @@ import './App.css';
 import Home from './routes/Home';
 import About from './routes/About';
 import Projects from './routes/Projects';
+import Error from './routes/Error';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
     {
         path: '/projects',
         element: <Projects />
+    },
+    {
+        path: '*',
+        element: <Error />
     }
 ])
 

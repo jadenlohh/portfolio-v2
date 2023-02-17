@@ -1,0 +1,26 @@
+.error h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 2em;
+    width: 100%;
+}
+
+#error-img {
+    position: absolute;
+    right: 40px;
+    bottom: 0px;
+    width: 340px;
+    height: 340px;
+}
+
+@media (min-width: 1400px) {
+    .error p, .error a {
+        font-size: 20px;
+    }
+
+    #error-img {
+        right: 60px;
+        bottom: 0px;
+        width: 420px;
+        height: 420px;
+    }
+}
