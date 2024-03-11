@@ -10,26 +10,26 @@ import Error from './routes/Error';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <Home />
-    },
-    {
-        path: '/about',
-        element: <About />
-    },
-    {
-        path: '/projects',
-        element: <Projects />
-    },
-    {
-        path: '*',
-        element: <Error />
-    }
+  {
+    path: '/',
+    element: <Home />
+  },
+  {
+    path: '/about',
+    element: <About />
+  },
+  {
+    path: '/projects',
+    element: <Projects />
+  },
+  {
+    path: '*',
+    element: <Error />
+  }
 ])
 
 root.render(
-    <React.StrictMode>
-        <RouterProvider router={router} />
-    </React.StrictMode>
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
