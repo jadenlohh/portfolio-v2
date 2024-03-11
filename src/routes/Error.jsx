@@ -8,21 +8,21 @@ const Error = () => {
 
   return (
     <>
-        <NavigationBar />
-        <SocialsSidebar />
+      <NavigationBar />
+      <SocialsSidebar />
 
-        <div className='error text-center'>
-            <h1>Page Not Found</h1>
-            <p>
-                Uhm... We've searched everywhere but we couldn't find what you are looking for 
-            </p>
+      <div className='error text-center'>
+        <h1>Page Not Found</h1>
+        <p>
+          Uhm... We've searched everywhere but we couldn't find what you are looking for
+        </p>
 
-            <a href='/' style={{color: 'grey', textDecoration: 'none'}}>
-                <i class="fa-solid fa-arrow-left"></i>&nbsp; Back to home
-            </a>    
-        </div>
+        <a href='/' style={{ color: 'grey', textDecoration: 'none' }}>
+          <i class="fa-solid fa-arrow-left"></i>&nbsp; Back to home
+        </a>
+      </div>
 
-        <img src={error} id='error-img' />
+      <img src={error} id='error-img' />
     </>
   )
 }
